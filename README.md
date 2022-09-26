@@ -10,7 +10,7 @@
 * [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 
 ## Live Demo
-[https://isaacndala.herokuapp.com/](https://wherechat.herokuapp.com/)
+[https://isaacndala.herokuapp.com/](https://isaacndala.herokuapp.com/)
 
 ## Project Setup
 
