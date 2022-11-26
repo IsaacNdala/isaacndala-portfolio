@@ -61,8 +61,6 @@ export default {
             'closeAlertError'
         ]),
         async postContact() {
-            console.log("URL: ", process.env.VUE_APP_SERVER_URL);
-            debugger;
             this.openLoader()
             try {
                 const result = await axios.post(`${process.env.VUE_APP_SERVER_URL}/contact/post-contact`, this.formData)
