@@ -15,7 +15,6 @@ const router = createRouter({
   // eslint-disable-next-line 
   scrollBehavior(to, from, savedPosition) {
     if(to.hash) {
-      console.log(to.hash)
       return { 
         el: to.hash, 
         behavior: 'smooth' 

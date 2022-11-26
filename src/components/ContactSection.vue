@@ -63,7 +63,7 @@ export default {
         async postContact() {
             this.openLoader()
             try {
-                const result = await axios.post('https://isaacndala-portfolio-server.herokuapp.com/contact/post-contact', this.formData)
+                const result = await axios.post(`${process.env.SERVER_URL}/contact/post-contact`, this.formData)
                 if(result) {
                     setTimeout(() => {
                         this.closeLoader()
